@@ -1,0 +1,10 @@
+#5
+soma = 0
+while True:
+    numero = int(input("Digite um número inteiro (0 para sair):"))
+    if numero == 0:
+        break
+    soma += numero
+    print(f"Soma de todos os números digitados: {soma}")
+
+
